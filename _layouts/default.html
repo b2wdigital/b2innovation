@@ -18,17 +18,21 @@
       <div class="inner">
 
         <header>
-          <h1>{{ site.title | default: site.github.repository_name}}</h1>
+          <a href="/"> <img src="{{site.logo | relative_url}}" alt="Logo" />  </a>
         </header>
+        
         <hr>
+
         <section id="main_content">
-          {{ content }}
+          <img src="{{ site.banner }}" alt="Ofertas do Dia" />
+          <a href="https://play.google.com/store/apps/details?id=com.b2winc.amedigital&hl=pt_BR">
+            <img src="{{ site.amedigital }}" alt="Donwload AME Digital">
+          </a>
+          <!-- {{ content }} -->
         </section>
 
         <footer>
-        
           This repository is maintained by <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a><br>
-        
         </footer>
 
       </div>
