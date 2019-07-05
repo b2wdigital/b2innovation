@@ -199,6 +199,5 @@ footer a:hover { color: #444; }
 #center {
   position: relative;
   margin: auto;
-  margin-left: 100px;
   list-style-position: inside;
 }
