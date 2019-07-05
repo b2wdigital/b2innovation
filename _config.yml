@@ -2,6 +2,6 @@ theme: jekyll-theme-tactile
 title: b2innovation
 logo: assets/images/americanas-logo.png
 banner: assets/images/ofertas-banner.gif
-amedigital: assets/images/amedigital.gif
-android: assets/images/google-play-min.png
-apple: assets/images/app-store-min.png
+amedigital: assets/images/amedigital.png
+android: assets/images/google-play.png
+apple: assets/images/app-store.png
