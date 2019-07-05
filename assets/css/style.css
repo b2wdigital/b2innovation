@@ -183,28 +183,22 @@ footer a:hover { color: #444; }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 
-/* Social Media */
-.offers {
-  margin: 0 auto 0 auto;
-}
-
-.offers ul {
-  margin: 20px 0 0 0;
+/* Downloads */
+.download {
+  margin: 0 auto;
   text-align: center;
-}
-
-.offers ul li {
-  display: inline;
-}
-
-.offers ul li svg {
-  width: 30px;
-  height: 30px;
-}
-
-.offers .line01 .line02 .line03 {
-  width: 30px;
-  height: 30px;
   float: left;
-  padding-right: 20px 40px;
+}
+
+.download ul {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+#center {
+  position: relative;
+  margin: auto;
+  margin-left: 100px;
+  list-style-position: inside;
 }
